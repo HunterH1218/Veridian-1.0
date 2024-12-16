@@ -1,4 +1,3 @@
-
 # Veridian - AI-Powered Search and Response System
 
 Veridian is an intelligent system that combines web search capabilities with AI-powered text processing to provide informative responses to user queries.
@@ -28,19 +27,16 @@ Veridian is an intelligent system that combines web search capabilities with AI-
 ## Usage
 
 1. Make sure you have a Gemini API key set in your environment variables
-2. Run the main script:
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+3. Run the main script:
 ```bash
 python main.py
 ```
-3. Enter your queries at the prompt and receive AI-powered responses
+4. Enter your queries at the prompt and receive AI-powered responses
 
-## Configuration
-
-The system uses Gemini 1.5 Flash 8B model with the following configuration:
-- Temperature: 0.85
-- Top P: 0.95
-- Top K: 40
-- Max Output Tokens: 8192
 
 ## Example Usage
 
@@ -51,4 +47,7 @@ The system uses Gemini 1.5 Flash 8B model with the following configuration:
 ```
 
 The system will automatically determine whether to search the web or provide a direct response.
+
+## Contributing
+We welcome contributions! Please fork the repository and submit a pull request for any bug fixes or enhancements.
 
